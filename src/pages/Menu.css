@@ -1,0 +1,67 @@
+.menu {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu__container {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu__title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.menu__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu__item {
+  display: block; /* Ensure block layout for the entire card */
+  text-decoration: none; /* Remove underline from link */
+  color: inherit; /* Inherit text color from parent */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu__item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.menu__item h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.menu__item p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu__item button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu__item button:hover {
+  background-color: #ff4500;
+}

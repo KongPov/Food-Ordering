@@ -1,0 +1,36 @@
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .testimonials__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonials__item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .testimonials__item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials__item h4 {
+    font-size: 16px;
+    color: #888;
+  }
+  

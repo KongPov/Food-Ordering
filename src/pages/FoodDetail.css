@@ -1,0 +1,42 @@
+.food-detail {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .food-detail img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .food-detail h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .food-detail p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .food-detail button {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .food-detail button:hover {
+    background-color: #ff4500;
+  }
+  
+  .food-detail button:active {
+    transform: scale(0.98);
+  }
+  
